@@ -11,7 +11,7 @@ export const useDarkMode = _ => {
 
     useEffect(_ => {
 
-        darkMode ? body.classList.add('darkMode') : body.classList.remove('darkMode');
+        darkMode ? body.classList.add('dark-mode') : body.classList.remove('dark-mode');
 
     },[darkMode]);
 
